@@ -108,5 +108,5 @@ GND commun    -> Arduino + H-bridge + encodeurs
 - L'intégrale est limitée (`iClamp`=200) pour éviter la saturation.
 - Pour bien régler, commencer à basse vitesse et ajuster `Kp`, `Ki`.
 
-https://github.com/user-attachments/assets/8acd9b25-2ef5-4651-a50d-4146b15c90f6
+![Video](https://github.com/user-attachments/assets/8acd9b25-2ef5-4651-a50d-4146b15c90f6)
 
