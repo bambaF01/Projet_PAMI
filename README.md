@@ -4,8 +4,6 @@ Contrôle PID de vitesse pour **2 moteurs DC avec 2 encodeurs** (Arduino Nano AT
 
 https://github.com/user-attachments/assets/d36c6aaf-62de-4587-99f5-2096c307d4bd
 
-https://github.com/user-attachments/assets/8acd9b25-2ef5-4651-a50d-4146b15c90f6
-
 ## Contenu du dépôt
 
 - `PAMI_PID.ino` : sketch Arduino
@@ -109,3 +107,6 @@ GND commun    -> Arduino + H-bridge + encodeurs
 - Les gains Kp et Ki sont séparés pour chaque moteur (gauche/droit) et ajustables en temps réel.
 - L'intégrale est limitée (`iClamp`=200) pour éviter la saturation.
 - Pour bien régler, commencer à basse vitesse et ajuster `Kp`, `Ki`.
+
+https://github.com/user-attachments/assets/8acd9b25-2ef5-4651-a50d-4146b15c90f6
+
