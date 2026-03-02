@@ -2,6 +2,9 @@
 
 Contrôle PID de vitesse pour **2 moteurs DC avec 2 encodeurs** (Arduino Nano ATmega328P). Le sketch mesure les impulsions, calcule la vitesse (RPM) et ajuste le PWM via un PID (avec gain scheduling) pour suivre une consigne.
 
+https://github.com/user-attachments/assets/d36c6aaf-62de-4587-99f5-2096c307d4bd
+https://github.com/user-attachments/assets/8acd9b25-2ef5-4651-a50d-4146b15c90f6
+
 ## Contenu du dépôt
 
 - `PAMI_PID.ino` : sketch Arduino
