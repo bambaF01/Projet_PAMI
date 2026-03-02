@@ -104,5 +104,4 @@ GND commun    -> Arduino + H-bridge + encodeurs
 - La commande PWM est contrainte entre `0..255`.
 - Les gains Kp et Ki sont séparés pour chaque moteur (gauche/droit) et ajustables en temps réel.
 - L'intégrale est limitée (`iClamp`=200) pour éviter la saturation.
-- Le trim `trimG` permet d'ajuster finement la vitesse du moteur gauche.
 - Pour bien régler, commencer à basse vitesse et ajuster `Kp`, `Ki`.
